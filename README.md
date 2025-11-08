@@ -14,14 +14,11 @@ python3 flopy_persistent_wrapper.py <script.py>
 
 ```
 /workspace/{script_name}/
-├── plots/
+├── plots/                  # All matplotlib figures
 │   ├── figure_001.png
 │   ├── figure_002.png
 │   └── ...
-├── flow/
-│   └── (MODFLOW files)
-└── transport/
-    └── (MODFLOW files)
+└── (all model files)       # MODFLOW input/output files
 ```
 
 ## How It Works
