@@ -186,4 +186,4 @@ if __name__ == '__main__':
 
         print(f"\nOutput summary:")
         print(f"  Figures: {PLOTS_DIR}/ ({_figure_counter} files)")
-        print(f"  Models: {OUTPUT_BASE}/flow/, {OUTPUT_BASE}/transport/")
+        print(f"  Models: {OUTPUT_BASE}/")
