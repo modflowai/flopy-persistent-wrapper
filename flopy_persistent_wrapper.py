@@ -146,7 +146,7 @@ if __name__ == '__main__':
         sys.exit(1)
 
     print(f"Running FloPy example with figure auto-save: {script_path}")
-    print(f"Figures will be saved to: {OUTPUT_DIR}")
+    print(f"Figures will be saved to: {PLOTS_DIR}")
     print("-" * 80)
 
     # Change to script directory for relative imports
